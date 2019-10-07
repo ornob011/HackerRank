@@ -15,12 +15,10 @@ int main()
 	for(i=0; i<inputsize; i++)
 	{
 		cin>>str;
-
 		m[str]++;
 	}
 
 	cin>>querysize;
-
 	for(i=0; i<querysize; i++)
 	{
 		cin>>str;
